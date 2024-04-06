@@ -6,4 +6,8 @@ description "Script that compiles useful development commands"
 author "Mathu_lmn"
 version "1.0.0"
 
-client_script 'client.lua'
+clients_script {
+    'utils.lua',
+    'consts.lua',
+    'client.lua'
+}
